@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./happy-jack.png">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>maker</title>
+</head>
+<body>
+    <div>
+      <div class="intro">
+        <p>Add letters</p>
+      </div>  
+        <br>
+        <input type="text" name="letter" id="letter" size="40" />
+        <button class="button" id="letter-button" onclick="makeLetterArray()">Submit</button>
+        <br>
+        <div class="letters" id="letter-box">       
+        </div>
+        <hr>
+        <div class="intro">
+            <p>Add words</p>
+          </div>  
+            <br>
+        <input type="text" name="word" id="word" size="40" />
+        <button class="button" id="word-button" onclick="makeWordArray()">Submit</button>
+        <br>
+        <div class="word-box" id="word-box">
+        </div>
+      </div>
+      <script src="./maker.js"></script>
+</body>
+</html>
