@@ -32,14 +32,12 @@ wordInput.addEventListener("keypress", function(event) {
 function makeLetterArray() {
     let newLetter = document.getElementById("letter").value
     letters.push(newLetter)
-    letterBox.innerText = `${letters}  `
-    console.log(letters)
+    letterBox.innerText = `[${letters},]`
 }
 
 //make word array
 function makeWordArray() {
     let newWord = document.getElementById("word").value
     words.push(newWord)
-    wordBox.innerText = `${words} `
-    console.log(words)
+    wordBox.innerText = `[${words},]`
 }

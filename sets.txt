@@ -1,8 +1,0 @@
-['i', 'g', 'n', 'l', 'o', 'b', 'e']
-['blob', 'bobble', 'bolo', 'bling', 'boil', 'bill', 'bell', 'belle', 'belie', 'bile', 'boggle', 'belong', 'belonging', 'bilge', 'bobbling', 'gelling', 'gill', 'gilling', 'glob', 'googol', 'google', 'googling', 'goggle', 'goggling', 'gobble', 'gobbling', 'igloo', 'ignoble', 'line', 'lining', 'lone', 'loon', 'lobbing', 'logging', 'logo', 'loge', 'logline', 'lingo', 'long', 'longing', 'lobe', 'libel', 'libeling', 'libelee', 'beeline', 'blinging', 'blogging', 'blog', 'loll', 'lolling', 'oblong', 'oblige', 'obliging', 'nibble', 'nibbling', 'niggling', 'niggle', 'ogle', 'ogling', 'olio', 'oleo', 'online', 'oiling', 'lobo']
-
-['l', 'y', 'r', 'g', 'f', 'i', 'o']
-['flog', 'foggily', 'foggy', 'fogy', 'forgo', 'frog', 'froggy', 'giggly', 'gigolo', 'gill', 'girl', 'girly', 'glorify', 'glory', 'goggly', 'golf', 'golly', 'goof', 'goofily', 'goofy', 'googly', 'googol', 'gory', 'grill', 'grog', 'groggily', 'groggy', 'gyro', 'igloo', 'logo', 'logroll', 'logy', 'orgy', 'rigor', 'yogi']
-
-['a', 'b', 'u', 'k', 't', 'c', 'o']
-['aback', 'back', 'bock', 'buck', 'book', 'cock', 'cockatoo', 'cook', 'kook', 'outback', 'took', 'cutback', 'tack', 'tock', 'tuck', 'cookout', 'attack', 'kabob', 'babka', 'bucko', 'buttock', 'cookbook',' cuckoo']
