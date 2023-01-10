@@ -1,3 +1,4 @@
 See if you can get the outputs to display as arrays that can be copied/pasted into your data file
 Figure out how undo errors w/o starting all over
 Make it prettier
+Fix the word-box problem

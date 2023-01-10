@@ -1,20 +1,12 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:ivory;
     color:blue;
     font-size: 18px;
 }
 
-.intro {
-    width: 800px; 
-}
-
 .letters {
     font-size: 24px;
-}
-
-.goal {
-    height: 50px;
 }
 
 .button {
@@ -24,18 +16,14 @@ body {
     border-radius: 5px;
 }
 
-.letter {
-    font-size: 24px;
-}
-
 .letter-box {
     height: 70px;
 }
 
 .word-box {
     height: 200px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
+    width: 500px;
+    /* display: flex;
+    flex-direction: column; */
     font-size: 20px;
 }
