@@ -18,7 +18,6 @@ body {
 
 .word-box {
     height: 400px;
-    max-width: 600px;
+    max-width: 800px;
     overflow-wrap: break-word;
-    hyphens: auto;
 }
