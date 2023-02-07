@@ -13,7 +13,15 @@ body {
 }
 
 .letter-box {
-    height: 100px;
+    height: 50px;
+}
+
+.pangram-box {
+    height: 50px;
+}
+
+.puzzle-name-box {
+    height: 50px;
 }
 
 .word-box {

@@ -4,13 +4,13 @@ let words = [];
 let pangrams = [];
 
 //DOM manipulation
-const lettersBox = document.getElementById("letters-box");
+const lettersBox = document.getElementById("letter-box");
 
-const wordsBox = document.getElementById("words-box");
+const wordsBox = document.getElementById("word-box");
 
-const pangramsBox = document.getElementById("pangrams-box");
+const pangramsBox = document.getElementById("pangram-box");
 
-const nameBox = document.getElementById("puzzle-name-box");
+const puzzleNameBox = document.getElementById("puzzle-name-box");
 
 const nameInput = document.getElementById("puzzle-name");
 
@@ -18,7 +18,7 @@ const letterInput = document.getElementById("letter");
 
 const wordInput = document.getElementById("word");
 
-const pangramInput = document.getElementById("pangrams");
+const pangramInput = document.getElementById("pangram");
 
 //event listeners
 letterInput.addEventListener("keypress", function (event) {
@@ -40,8 +40,8 @@ wordInput.addEventListener("keypress", function (event) {
 pangramsInput.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
-    document.getElementById("pangrams-button").click();
-    document.getElementById("pangrams").value = "";
+    document.getElementById("pangram-button").click();
+    document.getElementById("pangram").value = "";
   }
 });
 
@@ -54,28 +54,28 @@ nameInput.addEventListener("keypress", function (event) {
   });
 
 //make letter array
-function makeLetterArray() {
+function makeLettersArray() {
   let newLetter = document.getElementById("letter").value;
   letters.push(newLetter);
-  lettersBox.innerText = `[${letters},]`;
+  letterBox.innerText = `[${letters},]`;
 }
 
 //make word array
-function makeWordArray() {
+function makeWordsArray() {
   let newWord = document.getElementById("word").value;
   words.push(newWord);
-  wordsBox.innerText = `[${words},]`;
+  wordBox.innerText = `[${words},]`;
 }
 
 //make pangrams array
 function makePangramsArray() {
-  let newPangram = document.getElementById("pangrams").value;
+  let newPangram = document.getElementById("pangram").value;
   pangrams.push(newPangram);
-  pangramsBox.innerText = `[${pangrams},]`;
+  pangramBox.innerText = `[${pangrams},]`;
 }
 
 //display puzzle name
 function displayPuzzleName() {
   let puzzleName = document.getElementById("puzzle-name").value;
-  nameBox.innerText = `${puzzleName}`;
+  puzzleNameBox.innerText = `${puzzleName}`;
 }
