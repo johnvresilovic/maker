@@ -11,10 +11,6 @@ maker uses HTML, CSS and JavaScript.
 Working on twiggle, I quickly realized that it would be helpful to have a faster way to create puzzle sets.  Typing in an array of seven letters is easy enough, but typing in an array of even just 20 words can be tedious -- and in theory a puzzle set could have more than 70 words.  So I created maker.    
 
 ## Miscellaneous
-To use maker, navigate to the URL below.  If you want access to the files you can fork and clone this repository to your machine.
-
-The live site for this game is https://johnvresilovic.github.io/maker/
-
-Thanks to the Per Scholas program for the opportunity to learn to code.  I'm particularly grateful to my instructors, Tishana Trainor, Kasper Kain and Chase Van Halen.
+If you want access to the files you can fork and clone this repository to your machine.
 
 Contact info: johnvresilovic@protonmail.com

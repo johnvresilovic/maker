@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./happy-jack.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./happy-jack.png" />
     <link rel="stylesheet" href="./styles.css" />
     <title>maker</title>
-</head>
-<body>
-    <div>
-      <div class="intro">
-        <p>Add letters</p>
-      </div>  
-        <input type="text" name="letter" id="letter" size="40" />
-        <button class="button" id="letter-button" onclick="makeLetterArray()">Submit</button>
-        <br/>
-        <br/>
-        <div class="letters" id="letter-box">       
-        </div>
-        <br/>
-        <hr>
-        <div class="intro">
-            <p>Add words</p>
-          </div>  
-        <input type="text" name="word" id="word" size="40" />
-        <button class="button" id="word-button" onclick="makeWordArray()">Submit</button>
-        <br/>
-        <br/>
-        <div class="word-box" id="word-box">
-        </div>
+  </head>
+  <body>
+      <div>
+        <p>Puzzle name (typically a pangram made from the letters)</p>
+      <input type="text" name="puzzle-name" id="puzzle-name" size="40" />
+      <button class="button" id="name-button">
+        Submit
+      </button>
+    </div>
+      <br />
+      <div class="puzzle-name-box" id="puzzle-name-box"></div>
+      <br />
+      <div>
+        <p>Difficulty</p>
+        <input type="radio" id="easier" name="difficulty" value="Easier">
+        <label for="easier">Easier</label><br>
+        <input type="radio" id="harder" name="difficulty" value="Harder">
+        <label for="harder">Harder</label><br>
+        <input type="radio" id="headache" name="difficulty" value="Headache">
+        <label for="headache">Headache</label>
       </div>
-      <script src="./maker.js"></script>
-</body>
+      <br />
+      <div>
+        <p>Add letters</p>
+      <input type="text" name="letter" id="letter" size="40" />
+      <button class="button" id="letter-button" onclick="makeLetterArray()">
+        Submit
+      </button>
+      </div>
+      <br />
+      <div class="letters-box" id="letters-box"></div>
+      <br />
+      <div>
+        <p>Pangram(s)</p>
+      <input type="text" name="pangrams" id="pangrams" size="40" />
+      <button class="button" id="pangrams-button" onclick="makePangramsArray()">
+        Submit
+      </button>
+    </div>
+      <br />
+      <div class="pangams-box" id="pangrams-box"></div>
+      <br />
+      <div>
+        <p>Add words</p>
+      <input type="text" name="word" id="word" size="40" />
+      <button class="button" id="word-button" onclick="makeWordArray()">
+        Submit
+      </button>
+    </div>
+      <br />
+      <div class="words-box" id="words-box"></div>
+    <script src="./maker.js"></script>
+  </body>
 </html>
