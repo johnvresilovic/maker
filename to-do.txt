@@ -1,6 +1,6 @@
 --Figure out how undo errors w/o starting all over
 --Check for duplicate words - maybe run word array through tester before submitting?
---Figure out how to write the three data to db
---Add fields for Name, Difficulty, Pangrams
+--Figure out how to write the data to db
 --Make it a MERN stack app
 --Fix the word wrap problem
+--Display inputs on the right side of the screen, with buttons below for test and write to db
