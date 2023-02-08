@@ -10,7 +10,7 @@
   </head>
   <body>
       <div>
-        <p>Puzzle name (typically a pangram made from the letters)</p>
+        <p>Puzzle name</p>
       <input type="text" name="puzzle-name" id="puzzle-name" size="40" />
       <button class="button" id="name-button" onclick="displayPuzzleName()">
         Submit
@@ -18,7 +18,6 @@
     </div>
       <br />
       <div class="puzzle-name-box" id="puzzle-name-box"></div>
-      <br />
       <div>
         <p>Difficulty</p>
         <input type="radio" id="easier" name="difficulty" value="Easier">
@@ -30,7 +29,7 @@
       </div>
       <br />
       <div>
-        <p>Add seven letters (one at a time, key letter goes fourth)</p>
+        <p>Letters</p>
       <input type="text" name="letter" id="letter" size="40" />
       <button class="button" id="letter-button" onclick="makeLetterArray()">
         Submit
@@ -40,7 +39,7 @@
       <div class="letter-box" id="letter-box"></div>
       <br />
       <div>
-        <p>Pangram(s) (also one at a time)</p>
+        <p>Pangram(s)</p>
       <input type="text" name="pangram" id="pangram" size="40" />
       <button class="button" id="pangram-button" onclick="makePangramArray()">
         Submit
@@ -50,7 +49,7 @@
       <div class="pangam-box" id="pangram-box"></div>
       <br />
       <div>
-        <p>Add words (you guessed it, one at a time)</p>
+        <p>Words</p>
       <input type="text" name="word" id="word" size="40" />
       <button class="button" id="word-button" onclick="makeWordArray()">
         Submit
