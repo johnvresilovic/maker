@@ -1,13 +1,13 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:ivory;
+    background-color:ghostwhite;
     color:blue;
     font-size: 14px;
 }
 
 .button {
     background-color: blue;
-    color: ivory;
+    color: ghostwhite;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 5px;
 }
